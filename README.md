@@ -1,16 +1,16 @@
-# Twenty Twenty-Five
+# Resilient Health
 
 Welcome to the development repository for the default theme that will launch with [WordPress 6.7](https://make.wordpress.org/core/6-7/).
 
 ## About
 
-While ideating Twenty Twenty-Five, one recurring idea was that simple things should be intuitive while complex things should be possible. This concept of simplicity and complexity leads to a reliable foundation for extending a default WordPress experience to make it yours.
+While ideating Resilient Health, one recurring idea was that simple things should be intuitive while complex things should be possible. This concept of simplicity and complexity leads to a reliable foundation for extending a default WordPress experience to make it yours.
 
-Twenty Twenty-Five embodies ultimate flexibility and adaptability, showcasing the many ways WordPress enables people to tell their stories with many patterns and styles to choose from. The glimpses of natural beauty and ancestry woven into the theme evoke ideas of impermanence, the passage of time, and continuous evolution.
+Resilient Health embodies ultimate flexibility and adaptability, showcasing the many ways WordPress enables people to tell their stories with many patterns and styles to choose from. The glimpses of natural beauty and ancestry woven into the theme evoke ideas of impermanence, the passage of time, and continuous evolution.
 
-[Introducing Twenty Twenty-Five](https://make.wordpress.org/core/2024/08/15/introducing-twenty-twenty-five/)
+[Introducing Resilient Health](https://make.wordpress.org/core/2024/08/15/introducing-twenty-twenty-five/)
 
-Twenty Twenty-Five is built as a [block theme](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/). The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through [`theme.json`](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/) and editable through Global Styles. The theme development team will work closely with [Gutenberg](https://github.com/wordpress/gutenberg) contributors to build design tools in the block editor that enable this goal.
+Resilient Health is built as a [block theme](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/). The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through [`theme.json`](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/) and editable through Global Styles. The theme development team will work closely with [Gutenberg](https://github.com/wordpress/gutenberg) contributors to build design tools in the block editor that enable this goal.
 
 ## Contributing
 

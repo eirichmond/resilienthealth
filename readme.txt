@@ -1,4 +1,4 @@
-=== Twenty Twenty-Five ===
+=== Resilient Health ===
 Contributors: wordpressdotorg
 Requires at least: 6.6
 Tested up to: 6.6
@@ -15,8 +15,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Copyright ==
 
-Twenty Twenty-Five WordPress Theme, (C) 2024 WordPress.org
-Twenty Twenty-Five is distributed under the terms of the GNU GPL.
+Resilient Health WordPress Theme, (C) 2024 WordPress.org
+Resilient Health is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
