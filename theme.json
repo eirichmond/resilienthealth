@@ -4,71 +4,80 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"defaultPalette": false,
+			"customDuotone": false,
+			"custom": false,
+			"customGradient": false,
 			"palette": [
 				{
-					"color": "#FFFFFF",
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#111111",
+					"name": "Black",
+					"slug": "black"
+				},
+				{
+					"color": "#241c15",
+					"name": "Gray Primary",
+					"slug": "gray-primary"
+				},
+				{
+					"color": "#414141",
+					"name": "Gray Secondary",
+					"slug": "gray-secondary"
+				},
+				{
+					"color": "#414141",
+					"name": "Gray Tertiary",
+					"slug": "gray-tertiary"
+				},
+				{
+					"color": "#257e93",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#111111",
-					"name": "Contrast",
-					"slug": "contrast"
+					"color": "#1b7d95",
+					"name": "Second Base",
+					"slug": "second-base"
 				},
 				{
-					"color": "#686868",
-					"name": "Primary",
-					"slug": "primary"
+					"color": "#2c9ab7",
+					"name": "Forth Base",
+					"slug": "forth-base"
 				},
 				{
-					"color": "#FBFAF3",
-					"name": "Secondary",
-					"slug": "secondary"
+					"color": "#efefef",
+					"name": "Mood Gray",
+					"slug": "mood-gray"
 				},
 				{
-					"color": "#FFFFFF33",
-					"name": "Opacity 20%",
-					"slug": "opacity-20"
+					"color": "#eeeeee",
+					"name": "White Gray",
+					"slug": "white-gray"
 				},
 				{
-					"color": "#FFEE58",
-					"name": "Accent 1",
-					"slug": "accent-1"
+					"color": "#ff0000",
+					"name": "Bright Red",
+					"slug": "bright-red"
 				},
 				{
-					"color": "#F6CFF4",
-					"name": "Accent 2",
-					"slug": "accent-2"
-				},
-				{
-					"color": "#503AA8",
-					"name": "Accent 3",
-					"slug": "accent-3"
+					"color": "#db3a1b",
+					"name": "Muted Red",
+					"slug": "muted-red"
 				}
 			]
 		},
 		"layout": {
-			"contentSize": "645px",
+			"contentSize": "1140px",
 			"wideSize": "1340px"
 		},
 		"spacing": {
 			"defaultSpacingSizes": false,
 			"spacingSizes": [
-				{
-					"name": "X-Tiny",
-					"size": "5px",
-					"slug": "10"
-				},
-				{
-					"name": "Tiny",
-					"size": "10px",
-					"slug": "20"
-				},
-				{
-					"name": "X-Small",
-					"size": "20px",
-					"slug": "30"
-				},
 				{
 					"name": "Small",
 					"size": "30px",
@@ -95,7 +104,9 @@
 					"slug": "80"
 				}
 			],
-			"units": ["%", "px", "em", "rem", "vh", "vw"]
+			"units": [
+				"rem"
+			]
 		},
 		"typography": {
 			"defaultFontSizes": false,
@@ -1040,6 +1051,17 @@
 		},
 		"elements": {
 			"button": {
+				"border": {
+					"radius": {
+						"bottomLeft": "0px",
+						"bottomRight": "0px",
+						"topLeft": "0px",
+						"topRight": "0px"
+					}
+				},
+				"color": {
+					"background": "var(--wp--preset--color--base)"
+				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
 				}
@@ -1089,7 +1111,8 @@
 					"lineHeight": "1.125"
 				}
 			}
-		}
+		},
+		"css": ":where(.wp-site-blocks) > * {margin-block-start:0px;}"
 	},
 	"templateParts": [
 		{
